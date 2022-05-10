@@ -1,0 +1,40 @@
+{
+  "name": "virtuous_paypal_import",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This package is used to import payment transactions (donations/gifts) from PayPal into the Virtuous Gift and Contact Import tool",
+  "main": "GiftProcessor.js",
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.0.0",
+    "@google-cloud/functions-framework": "^3.0.0",
+    "cross-fetch": "^3.1.5",
+    "escape-html": "^1.0.3",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animalaidunlimited/virtuous.git"
+  },
+  "keywords": [
+    "Virtuous",
+    "paypal",
+    "import",
+    "process",
+    "gift",
+    "contact",
+    "import"
+  ],
+  "author": "Jim Mackenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animalaidunlimited/virtuous/issues"
+  },
+  "homepage": "https://github.com/animalaidunlimited/virtuous#readme"
+}
