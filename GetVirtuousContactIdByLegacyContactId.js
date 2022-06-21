@@ -12,7 +12,7 @@
 *
 * password: The password for the above account. DO NOT SHARE YOUR PASSWORD
 *
-* legacyContactId: This is the column in your spreadsheet where the emails of your users lives.
+* legacyContactId: This is the column in your spreadsheet where the legacy contact ID of your users lives.
 *
 * resultColumn: This is where you want the amount retrieved from Virtuous to be stored.
 *
